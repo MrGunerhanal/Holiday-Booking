@@ -1,0 +1,9 @@
+{
+    "resorts":[
+        {
+			"resort1":"images/thumb1.jpg"
+        },
+        {
+			"resort2":"images/thumb2.jpg"
+        }
+]}

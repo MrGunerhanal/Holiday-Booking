@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+        <link href='https://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
+    <script src="jquery-1.10.2.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="myscript.js"></script>
+    
+        <link rel="stylesheet" href="jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="widgetstyle.css">
+</head>
+
+<body>
+    <div class="boxed">
+    <h2 class="left">Select Destination</h2>
+    <select>
+        <option selected="selected">Select Destination</option>
+        <option id = "Alps" name ="destination" value="Alps">The Alps</option>
+        <option id = "Europe" name ="destination" value="Europe">Europe</option>
+        <option id = "Africa" name ="destination" value="Africa">Africa</option>
+        <option id = "Caribbean" name ="destination" value="Caribbean">The Caribbean</option>
+        <option id = "Indian" name ="destination" value="Indian Ocean">Indian Ocean</option>
+        <option id = "NorthAmerica" name ="destination" value="North and Central America">North and Central America</option>
+        <option id = "SouthAmerica" name ="destination" value="South America">South America</option>
+        <option id = "Asia" name ="destination" value="Asia">Asia</option>
+    </select>
+    <h2 class="left">Select Comfort Level</h2>
+<br>
+    <div id="radio">
+    <input type="radio" id="radio1" name="comfortLevel" value="3 stars"><label for="radio1" class="radiowidth" title="Select Comfort">Comfort 3 Stars</label>
+    <input type="radio" id="radio2" name="comfortLevel" value="4 stars"><label for="radio2" class="radiowidth" title="Select Premium">Premium 4 Stars</label>
+    <input type="radio" id="radio3" name="comfortLevel" value="5 stars"><label for="radio3" class="radiowidth" title="Select Luxury">Luxury 5 Stars</label>
+  </div>
+    <br>
+    <h2 class="left">Select Activities</h2>
+ <div id="format">
+     <input type="checkbox" id="check1" name ="activity" value="Water Skiing"><label for="check1" title="Water Skiing"><img class="icon" src="images/waterskiing.png"></label>
+     <input type="checkbox" id="check2" name ="activity" value="Sailing"><label for="check2" title="Sailing"><img class="icon" src="images/sailing.png"></label>
+     <input type="checkbox" id="check3" name ="activity" value="Tennis"><label for="check3" title="Tennis"><img class="icon" src="images/tennis.png"></label>
+     <input type="checkbox" id="check4" name ="activity" value="Sucuba Diving"><label for="check4" title="Sucuba Diving"><img class="icon" src="images/sucuba.png"></label>
+     <input type="checkbox" id="check5" name ="activity" value="Golf"><label for="check5" title="Golf"><img class="icon" src="images/golf.png"></label>
+     <input type="checkbox" id="check6" name ="activity" value="Hiking"><label for="check6" title="Hiking"><img class="icon" src="images/hiking.png"></label>
+     <input type="checkbox" id="check7" name ="activity" value="Horse Riding"><label for="check7" title="Horse Rising"><img class="icon" src="images/horseriding.png"></label>
+     <input type="checkbox" id="check8" name ="activity" value="Spa"><label for="check8" title="Spa"><img class="icon" src="images/spa.png"></label>
+</div>
+<br><br>
+    <h2 class="left">Departure: <input type="text" id="departure" name="date" value="02/01/2016"></h2>
+    <h2 class="left">Arrival: <input type="text" id="arrival" name="date" value="01/15/2016"></h2>
+    <br><br>
+    <div id="tabs">
+  <ul>
+    <li><a href="#tabs-1" title="See Description of the Resort">Description</a></li>
+    <li><a href="#tabs-2" title="See Accommodation for the Resort">Accommodation </a></li>
+    <li><a href="#tabs-3" title="Click here to see the location of the Resort">Map</a></li>
+  </ul>
+  <div id="tabs-1">
+    <h2 id="header1">Content heading 1</h2>
+    <p id="tab1">Search the hotel you re looking for</p>
+  </div>
+  <div id="tabs-2">
+    <h2>Accomadation</h2>
+    <p id="tab2">Search the hotel you re looking for.</p>
+  </div>
+  <div id="tabs-3">
+    <h2>Content heading 3</h2>
+    <p id="tab3">Search the hotel you re looking for</p>
+    <p>Search the hotel you re looking for</p>
+  </div>
+</div>
+
+<button class = "search" title="Search Resorts"> Search Resorts </button>
+<div id = "placeholder"></div> 
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
